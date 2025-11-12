@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Got This Thing Scheduler - Your Excuse Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📅 Got This Thing Scheduler</h1>
+            <p class="tagline">Never be free when you don't want to be!</p>
+        </header>
+
+        <div class="controls">
+            <button id="generateBtn" class="btn btn-primary">Generate Fake Obligations</button>
+            <button id="clearBtn" class="btn btn-secondary">Clear Calendar</button>
+            <div class="control-group">
+                <label for="personName">Person to avoid:</label>
+                <input type="text" id="personName" placeholder="Enter name (optional)">
+            </div>
+        </div>
+
+        <div class="query-section">
+            <h2>🤔 Quick Excuse Finder</h2>
+            <div class="query-controls">
+                <input type="date" id="queryDate" class="date-input">
+                <button id="queryBtn" class="btn btn-query">What am I doing?</button>
+            </div>
+            <div id="queryResult" class="query-result"></div>
+        </div>
+
+        <div class="calendar-container">
+            <div class="calendar-header">
+                <button id="prevMonth" class="nav-btn">◀</button>
+                <h2 id="currentMonth"></h2>
+                <button id="nextMonth" class="nav-btn">▶</button>
+            </div>
+            <div id="calendar" class="calendar"></div>
+        </div>
+
+        <div class="events-list">
+            <h3>Upcoming Excuses</h3>
+            <div id="eventsList"></div>
+        </div>
+
+        <footer>
+            <p>⚠️ For entertainment purposes only. Use responsibly!</p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
