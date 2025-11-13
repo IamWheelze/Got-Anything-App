@@ -12,6 +12,8 @@ The Got This Thing Scheduler is a hilariously practical web application that gen
 
 - **🎲 Smart Excuse Generator**: Automatically creates 10-25 plausible fake obligations spanning the next 60 days
 - **📆 Interactive Calendar**: Visual month-by-month calendar showing all your "commitments"
+- **📤 Export to Real Calendar**: Download .ics files to import into Google Calendar, Apple Calendar, Outlook, etc.
+- **🗑️ Easy Removal**: Generate removal files to delete all fake events from your calendar instantly
 - **🔍 Quick Lookup**: Enter any date to instantly get your excuse for that day
 - **🎨 Category-Coded Events**: Events are color-coded by type (medical, family, work, home, personal, social, vague)
 - **💾 Persistent Storage**: Your fake obligations are saved locally and persist across sessions
@@ -19,7 +21,7 @@ The Got This Thing Scheduler is a hilariously practical web application that gen
 - **📴 Offline Support**: Works without internet connection after first visit
 - **🏠 Standalone Mode**: Runs in its own window like a native app
 - **🎯 Personalization**: Optionally add the person's name for a more personalized excuse
-- **🗑️ One-Click Clear**: Delete all fake events instantly with the "Clear Calendar" button
+- **✨ Maximum Believability**: Events show up in your actual calendar for ultimate authenticity
 
 ## 🌐 Deployment
 
@@ -83,12 +85,30 @@ This is a Progressive Web App (PWA) that can be installed like a real app!
 ### Usage
 
 1. **Generate Obligations**: Click the "Generate Fake Obligations" button to populate your calendar with random events
-2. **Check Your Schedule**:
+
+2. **Export to Your Real Calendar** (NEW! 🔥):
+   - Click "Download Calendar File (.ics)" to get a calendar file
+   - Open the downloaded file - it will automatically open your calendar app
+   - On **iPhone/Mac**: Opens in Apple Calendar
+   - On **Android**: Opens in Google Calendar
+   - On **Desktop**: Opens in your default calendar app (Outlook, Google Calendar, etc.)
+   - All your fake obligations now appear in your real calendar!
+
+3. **Check Your Schedule**:
    - Click on any calendar day to see what you're "doing" that day
    - Use the Quick Excuse Finder to query a specific date
-3. **Get Your Excuse**: Enter a date and optionally the name of the person asking, then click "What am I doing?" for a formatted response
-4. **Navigate**: Use the arrow buttons to browse different months
-5. **Clear Calendar**: If needed, use the "Clear Calendar" button to start fresh
+   - Your events now show up in your actual calendar app too!
+
+4. **Get Your Excuse**: Enter a date and optionally the name of the person asking, then click "What am I doing?" for a formatted response
+
+5. **Navigate**: Use the arrow buttons to browse different months
+
+6. **Remove Events When Done**:
+   - Click "Generate Removal File" to download a removal .ics file
+   - Open it to automatically delete all fake events from your calendar
+   - Or manually delete events from your calendar app
+
+7. **Clear Calendar**: Use the "Clear Calendar" button to remove events from the app (doesn't affect your real calendar)
 
 ## 🎪 Excuse Categories
 

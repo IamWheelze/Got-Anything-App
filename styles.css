@@ -127,6 +127,53 @@ h1 {
     color: white;
 }
 
+.btn-export {
+    background: linear-gradient(135deg, #4299e1 0%, #3182ce 100%);
+    color: white;
+}
+
+.btn-remove {
+    background: linear-gradient(135deg, #ed8936 0%, #dd6b20 100%);
+    color: white;
+}
+
+.export-section {
+    background: linear-gradient(135deg, #e6fffa 0%, #b2f5ea 100%);
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+    border: 2px solid #4299e1;
+}
+
+.export-section h3 {
+    color: #2c5282;
+    font-size: 1.3em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.export-description {
+    text-align: center;
+    color: #2d3748;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.export-controls {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+
+.export-help {
+    text-align: center;
+    font-size: 0.9em;
+    color: #4a5568;
+    font-style: italic;
+}
+
 .query-section {
     background: #f7fafc;
     padding: 25px;
