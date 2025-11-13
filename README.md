@@ -21,6 +21,33 @@ The Got This Thing Scheduler is a hilariously practical web application that gen
 - **🎯 Personalization**: Optionally add the person's name for a more personalized excuse
 - **🗑️ One-Click Clear**: Delete all fake events instantly with the "Clear Calendar" button
 
+## 🌐 Deployment
+
+### Deploy to GitHub Pages (Share with Friends!)
+
+To make this app available online for anyone to install:
+
+1. **Go to your GitHub repository** at `https://github.com/IamWheelze/Got-Anything-App`
+
+2. **Merge your feature branch to main**:
+   - Click "Pull requests" → "New pull request"
+   - Set base to `main` and compare to `claude/fake-calendar-scheduler-011CV4jrZCC1APxd7SJQvRZZ`
+   - Click "Create pull request" → "Merge pull request"
+
+3. **Enable GitHub Pages**:
+   - Go to Settings → Pages (in left sidebar)
+   - Under "Source", select branch: `main`
+   - Click "Save"
+
+4. **Get your URL**:
+   - After a few minutes, your app will be live at:
+   - `https://iamwheelze.github.io/Got-Anything-App`
+
+5. **Share with friends**:
+   - Send them the URL
+   - They visit it and click "Install App"
+   - No downloads, no GitHub account needed!
+
 ## 🚀 Getting Started
 
 ### Installation
