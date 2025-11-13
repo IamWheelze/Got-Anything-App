@@ -40,6 +40,25 @@ h1 {
     font-style: italic;
 }
 
+.install-btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: linear-gradient(135deg, #48bb78 0%, #38a169 100%);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 0.95em;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 0 4px 6px rgba(72, 187, 120, 0.3);
+}
+
+.install-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(72, 187, 120, 0.4);
+}
+
 .controls {
     display: flex;
     gap: 15px;

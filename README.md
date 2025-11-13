@@ -15,18 +15,43 @@ The Got This Thing Scheduler is a hilariously practical web application that gen
 - **🔍 Quick Lookup**: Enter any date to instantly get your excuse for that day
 - **🎨 Category-Coded Events**: Events are color-coded by type (medical, family, work, home, personal, social, vague)
 - **💾 Persistent Storage**: Your fake obligations are saved locally and persist across sessions
-- **📱 Responsive Design**: Works beautifully on desktop, tablet, and mobile devices
+- **📱 Progressive Web App**: Install as a real app on your phone or desktop!
+- **📴 Offline Support**: Works without internet connection after first visit
+- **🏠 Standalone Mode**: Runs in its own window like a native app
 - **🎯 Personalization**: Optionally add the person's name for a more personalized excuse
+- **🗑️ One-Click Clear**: Delete all fake events instantly with the "Clear Calendar" button
 
 ## 🚀 Getting Started
 
 ### Installation
 
-No installation required! This is a pure client-side application.
+**Option 1: Install as an App (Recommended)**
+
+This is a Progressive Web App (PWA) that can be installed like a real app!
+
+- **On Mobile (iOS/Android)**:
+  1. Visit the app in Safari (iOS) or Chrome (Android)
+  2. Look for the "Install App" button or browser prompt
+  3. Add to Home Screen
+  4. Launch from your home screen like any other app!
+
+- **On Desktop (Chrome/Edge)**:
+  1. Visit the app in Chrome or Edge
+  2. Click the install icon (➕) in the address bar
+  3. Or click the "Install App" button on the page
+  4. The app opens in its own window
+
+**Option 2: Use in Browser**
 
 1. Clone or download this repository
 2. Open `index.html` in any modern web browser
 3. Start generating excuses!
+
+**Benefits of Installing:**
+- Works offline after first visit
+- Launches in standalone window (no browser UI)
+- Appears in your app launcher/home screen
+- Faster access when you need a quick excuse!
 
 ### Usage
 
@@ -62,10 +87,13 @@ The app features:
 ## 🛠️ Technical Details
 
 - **Pure JavaScript**: No frameworks or dependencies
+- **Progressive Web App**: Full PWA with manifest and service worker
+- **Service Worker**: Offline-first caching strategy
 - **LocalStorage**: Events persist across browser sessions
 - **CSS Grid**: Responsive calendar layout
 - **Modern CSS**: Gradients, transitions, and hover effects
 - **Vanilla JS**: Clean, readable code
+- **Installable**: Works as standalone app on all platforms
 
 ## ⚠️ Disclaimer
 
